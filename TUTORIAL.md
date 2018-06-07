@@ -18,7 +18,7 @@ What is libtls not good for?
 - Replacing malloc and free with wrappers that do not quite the same thing.
 - Providing slightly different versions of Posix string handling routines.
 - Providing routines to parse http requests.
-- A lovingly hand crafted implementaiton of Julien dates.
+- A lovingly hand crafted implementation of Julian dates.
 - Big Endian AMD64 support.
 - Handling runtime changes to the size of socklen_t.
 - etc etc.
@@ -33,7 +33,7 @@ This tutorial is designed for people with some C experience on a POSIX, BSD like
 
 So if you go through this tutorial, what I hope you get out of it is:
 
-- A basic review of sockets in C, with read and write and synchronous IO. Do this in [Excercise 0](ex0)
+- A basic review of sockets in C, with read and write and synchronous IO. Do this in [Exercise 0](ex0)
 
 - How to convert a basic client and server program to use tls instead of cleartext in [Exercise 1](ex1)
 
